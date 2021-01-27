@@ -25,7 +25,7 @@ namespace ParsingBooks
         }
         private void DownloadProgress(object sender, DownloadProgressChangedEventArgs e)
         {
-            Console.WriteLine("{0}    downloaded {1} of {2} bytes. {3} % complete...",
+            Console.WriteLine("{0} downloaded {1} of {2} bytes. {3} % complete...",
                 (string)e.UserState,
                 e.BytesReceived,
                 e.TotalBytesToReceive,
