@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Commands>
+    <ScriptAction>
+      <ScriptCommand xsi:type="StartProcessCommand" CommandID="b6394b8c-962b-42aa-ac88-6486fbda7825" CommandName="StartProcessCommand" IsCommented="false" SelectionName="Start Process" DefaultPause="0" LineNumber="1" PauseBeforeExeucution="false" CommandEnabled="true" v_ProgramName="notepad" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="UIAutomationCommand" CommandID="1e95ddb1-721c-4279-9080-2d88110889bd" CommandName="UIAutomationCommand" IsCommented="false" SelectionName="UI Automation" DefaultPause="0" LineNumber="2" PauseBeforeExeucution="false" CommandEnabled="true" v_AutomationType="Click Element">
+        <v_WindowName>Untitled - Notepad</v_WindowName>
+        <v_UIASearchParameters>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="UIASearc8Para29Table012721.045607">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Enabled" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="UIASearc8Para29Table012721.045607" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="UIASearc8Para29Table012721.045607" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table025678.0456071" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>AcceleratorKey</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456072" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>AccessKey</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Alt+F</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456073" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Enabled>True</Enabled>
+                <Parameter_x0020_Name>AutomationId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Item 1</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456074" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ClassName</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456075" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>FrameworkId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Win32</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456076" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>HasKeyboardFocus</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456077" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>HelpText</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456078" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsContentElement</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456079" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsControlElement</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560710" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsEnabled</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560711" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsKeyboardFocusable</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560712" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsOffscreen</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560713" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsPassword</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560714" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsRequiredForForm</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560715" msdata:rowOrder="14" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ItemStatus</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560716" msdata:rowOrder="15" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ItemType</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560717" msdata:rowOrder="16" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>LocalizedControlType</Parameter_x0020_Name>
+                <Parameter_x0020_Value>menu item</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560718" msdata:rowOrder="17" diffgr:hasChanges="inserted">
+                <Enabled>True</Enabled>
+                <Parameter_x0020_Name>Name</Parameter_x0020_Name>
+                <Parameter_x0020_Value>File</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560719" msdata:rowOrder="18" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>NativeWindowHandle</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560720" msdata:rowOrder="19" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ProcessId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>8728</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_UIASearchParameters>
+        <v_UIAActionParameters>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="UIAAcAionPara29Table012721.045607">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="UIAAcAionPara29Table012721.045607" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="UIAAcAionPara29Table012721.045607" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <UIAAcAionPara29Table012721.045607 diffgr:id="UIAAcAionPara29Table012721.0456071" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Click Type</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Left Click</Parameter_x0020_Value>
+              </UIAAcAionPara29Table012721.045607>
+              <UIAAcAionPara29Table012721.045607 diffgr:id="UIAAcAionPara29Table012721.0456072" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>X Adjustment</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIAAcAionPara29Table012721.045607>
+              <UIAAcAionPara29Table012721.045607 diffgr:id="UIAAcAionPara29Table012721.0456073" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Y Adjustment</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIAAcAionPara29Table012721.045607>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_UIAActionParameters>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="UIAutomationCommand" CommandID="946f21be-95dd-41f0-b969-eb723775aaa2" CommandName="UIAutomationCommand" IsCommented="false" SelectionName="UI Automation" DefaultPause="0" LineNumber="3" PauseBeforeExeucution="false" CommandEnabled="true" v_AutomationType="Click Element">
+        <v_WindowName>Untitled - Notepad</v_WindowName>
+        <v_UIASearchParameters>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="UIASearc8Para30Table012721.083026" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="UIASearc8Para30Table012721.083026">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Enabled" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.0830261" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>AcceleratorKey</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Ctrl+O</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.0830262" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>AccessKey</Parameter_x0020_Name>
+                <Parameter_x0020_Value>O</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.0830263" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Enabled>True</Enabled>
+                <Parameter_x0020_Name>AutomationId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Item 2</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.0830264" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ClassName</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.0830265" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>FrameworkId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Win32</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.0830266" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>HasKeyboardFocus</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.0830267" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>HelpText</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.0830268" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsContentElement</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.0830269" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsControlElement</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302610" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsEnabled</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302611" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsKeyboardFocusable</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302612" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsOffscreen</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302613" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsPassword</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302614" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsRequiredForForm</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302615" msdata:rowOrder="14" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ItemStatus</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302616" msdata:rowOrder="15" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ItemType</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302617" msdata:rowOrder="16" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>LocalizedControlType</Parameter_x0020_Name>
+                <Parameter_x0020_Value>menu item</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302618" msdata:rowOrder="17" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>Name</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Open...</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302619" msdata:rowOrder="18" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>NativeWindowHandle</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+              <UIASearc8Para30Table012721.083026 diffgr:id="UIASearc8Para30Table012721.08302620" msdata:rowOrder="19" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ProcessId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>8728</Parameter_x0020_Value>
+              </UIASearc8Para30Table012721.083026>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_UIASearchParameters>
+        <v_UIAActionParameters>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="UIAAcAionPara30Table012721.083026" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="UIAAcAionPara30Table012721.083026">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <UIAAcAionPara30Table012721.083026 diffgr:id="UIAAcAionPara30Table012721.0830261" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Click Type</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Left Click</Parameter_x0020_Value>
+              </UIAAcAionPara30Table012721.083026>
+              <UIAAcAionPara30Table012721.083026 diffgr:id="UIAAcAionPara30Table012721.0830262" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>X Adjustment</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIAAcAionPara30Table012721.083026>
+              <UIAAcAionPara30Table012721.083026 diffgr:id="UIAAcAionPara30Table012721.0830263" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Y Adjustment</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIAAcAionPara30Table012721.083026>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_UIAActionParameters>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendMouseMoveCommand" CommandID="d3f8218c-8680-484c-9dc4-005fbe21e7e1" CommandName="SendMouseMoveCommand" IsCommented="false" SelectionName="Send Mouse Move" DefaultPause="0" LineNumber="4" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="222" v_YMousePosition="261" v_MouseClick="Left Click" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendMouseMoveCommand" CommandID="6faefc42-f1c3-436f-b6eb-266c4a16a315" CommandName="SendMouseMoveCommand" IsCommented="false" SelectionName="Send Mouse Move" DefaultPause="0" LineNumber="5" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="239" v_YMousePosition="467" v_MouseClick="Left Click" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="9d63a8e5-38ea-4e42-82a8-fda3539f579c" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="false" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="6" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="Current Window">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012721.092425">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012721.092425" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012721.092425" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012721.092425 diffgr:id="SendAdvancedKeyStrokesCommand012721.0924251" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Enter [Return]</Key>
+                <Action>Key Press (Down + Up)</Action>
+              </SendAdvancedKeyStrokesCommand012721.092425>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendAdvancedKeyStrokesCommand" CommandID="16779413-e665-4e0e-a8f5-773343c6547c" CommandName="SendAdvancedKeyStrokesCommand" IsCommented="false" SelectionName="Send Advanced Keystrokes" DefaultPause="0" LineNumber="7" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="MyName - Notepad">
+        <v_KeyActions>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="SendAdvancedKeyStrokesCommand012721.092517">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Key" type="xs:string" minOccurs="0" />
+                  <xs:element name="Action" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="SendAdvancedKeyStrokesCommand012721.092517" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="SendAdvancedKeyStrokesCommand012721.092517" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <SendAdvancedKeyStrokesCommand012721.092517 diffgr:id="SendAdvancedKeyStrokesCommand012721.0925171" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Key>Control (Left) [LControlKey]</Key>
+                <Action>Key Down</Action>
+              </SendAdvancedKeyStrokesCommand012721.092517>
+              <SendAdvancedKeyStrokesCommand012721.092517 diffgr:id="SendAdvancedKeyStrokesCommand012721.0925172" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Key>A [A]</Key>
+                <Action>Key Press (Down + Up)</Action>
+              </SendAdvancedKeyStrokesCommand012721.092517>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_KeyActions>
+        <v_KeyUpDefault>Yes</v_KeyUpDefault>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendKeysCommand" CommandID="51d87d26-d026-4f2f-ae3c-64b511b40895" CommandName="SendKeysCommand" IsCommented="false" SelectionName="Send Keystrokes" DefaultPause="0" LineNumber="8" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="MyName - Notepad" v_TextToSend="some" v_EncryptionOption="Not Encrypted" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="UIAutomationCommand" CommandID="0b529d4e-9fc2-47a5-89ff-43d29155d4ee" CommandName="UIAutomationCommand" IsCommented="false" SelectionName="UI Automation" DefaultPause="0" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_AutomationType="Click Element">
+        <v_WindowName>*MyName - Notepad</v_WindowName>
+        <v_UIASearchParameters>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="UIASearc8Para29Table012721.045607">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Enabled" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="UIASearc8Para29Table012721.045607" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="UIASearc8Para29Table012721.045607" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456071" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>AcceleratorKey</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456072" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>AccessKey</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Alt+F</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456073" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Enabled>True</Enabled>
+                <Parameter_x0020_Name>AutomationId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Item 1</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456074" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ClassName</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456075" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>FrameworkId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Win32</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456076" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>HasKeyboardFocus</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456077" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>HelpText</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456078" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsContentElement</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.0456079" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsControlElement</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560710" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsEnabled</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560711" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsKeyboardFocusable</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560712" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsOffscreen</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560713" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsPassword</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560714" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsRequiredForForm</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560715" msdata:rowOrder="14" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ItemStatus</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560716" msdata:rowOrder="15" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ItemType</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560717" msdata:rowOrder="16" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>LocalizedControlType</Parameter_x0020_Name>
+                <Parameter_x0020_Value>menu item</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560718" msdata:rowOrder="17" diffgr:hasChanges="inserted">
+                <Enabled>True</Enabled>
+                <Parameter_x0020_Name>Name</Parameter_x0020_Name>
+                <Parameter_x0020_Value>File</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560719" msdata:rowOrder="18" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>NativeWindowHandle</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+              <UIASearc8Para29Table012721.045607 diffgr:id="UIASearc8Para29Table012721.04560720" msdata:rowOrder="19" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ProcessId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>8728</Parameter_x0020_Value>
+              </UIASearc8Para29Table012721.045607>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_UIASearchParameters>
+        <v_UIAActionParameters>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="UIAAcAionPara29Table012721.045607">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="UIAAcAionPara29Table012721.045607" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="UIAAcAionPara29Table012721.045607" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <UIAAcAionPara29Table012721.045607 diffgr:id="UIAAcAionPara29Table012721.0456071" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Click Type</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Left Click</Parameter_x0020_Value>
+              </UIAAcAionPara29Table012721.045607>
+              <UIAAcAionPara29Table012721.045607 diffgr:id="UIAAcAionPara29Table012721.0456072" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>X Adjustment</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIAAcAionPara29Table012721.045607>
+              <UIAAcAionPara29Table012721.045607 diffgr:id="UIAAcAionPara29Table012721.0456073" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Y Adjustment</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIAAcAionPara29Table012721.045607>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_UIAActionParameters>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="UIAutomationCommand" CommandID="28306eea-6e33-4d60-865b-96ecc713af9a" CommandName="UIAutomationCommand" IsCommented="false" SelectionName="UI Automation" DefaultPause="0" LineNumber="10" PauseBeforeExeucution="false" CommandEnabled="true" v_AutomationType="Click Element">
+        <v_WindowName>*MyName - Notepad</v_WindowName>
+        <v_UIASearchParameters>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="UIASearc10Para7Table012721.100717" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="UIASearc10Para7Table012721.100717">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Enabled" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.1007171" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>AcceleratorKey</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Ctrl+Shift+S</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.1007172" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>AccessKey</Parameter_x0020_Name>
+                <Parameter_x0020_Value>A</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.1007173" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Enabled>True</Enabled>
+                <Parameter_x0020_Name>AutomationId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Item 4</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.1007174" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ClassName</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.1007175" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>FrameworkId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Win32</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.1007176" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>HasKeyboardFocus</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.1007177" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>HelpText</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.1007178" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsContentElement</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.1007179" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsControlElement</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071710" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsEnabled</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071711" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsKeyboardFocusable</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071712" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsOffscreen</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071713" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsPassword</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071714" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>IsRequiredForForm</Parameter_x0020_Name>
+                <Parameter_x0020_Value>False</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071715" msdata:rowOrder="14" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ItemStatus</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071716" msdata:rowOrder="15" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ItemType</Parameter_x0020_Name>
+                <Parameter_x0020_Value></Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071717" msdata:rowOrder="16" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>LocalizedControlType</Parameter_x0020_Name>
+                <Parameter_x0020_Value>menu item</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071718" msdata:rowOrder="17" diffgr:hasChanges="inserted">
+                <Enabled>True</Enabled>
+                <Parameter_x0020_Name>Name</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Save As...</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071719" msdata:rowOrder="18" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>NativeWindowHandle</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+              <UIASearc10Para7Table012721.100717 diffgr:id="UIASearc10Para7Table012721.10071720" msdata:rowOrder="19" diffgr:hasChanges="inserted">
+                <Enabled>False</Enabled>
+                <Parameter_x0020_Name>ProcessId</Parameter_x0020_Name>
+                <Parameter_x0020_Value>9624</Parameter_x0020_Value>
+              </UIASearc10Para7Table012721.100717>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_UIASearchParameters>
+        <v_UIAActionParameters>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="UIAAcAionPara7Table012721.100717" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="UIAAcAionPara7Table012721.100717">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <UIAAcAionPara7Table012721.100717 diffgr:id="UIAAcAionPara7Table012721.1007173" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Click Type</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Left Click</Parameter_x0020_Value>
+              </UIAAcAionPara7Table012721.100717>
+              <UIAAcAionPara7Table012721.100717 diffgr:id="UIAAcAionPara7Table012721.1007174" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>X Adjustment</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIAAcAionPara7Table012721.100717>
+              <UIAAcAionPara7Table012721.100717 diffgr:id="UIAAcAionPara7Table012721.1007175" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Y Adjustment</Parameter_x0020_Name>
+                <Parameter_x0020_Value>0</Parameter_x0020_Value>
+              </UIAAcAionPara7Table012721.100717>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_UIAActionParameters>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SendKeysCommand" CommandID="08516107-d434-4bc1-93c5-e1a1319d33a6" CommandName="SendKeysCommand" IsCommented="false" SelectionName="Send Keystrokes" DefaultPause="0" LineNumber="11" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="Save As" v_TextToSend="hnenn.txt{ENTER}" v_EncryptionOption="Not Encrypted" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CloseWindowCommand" CommandID="1e938a3f-da39-49b1-b718-61bb12d57af8" CommandName="CloseWindowCommand" IsCommented="false" SelectionName="Close Window" DefaultPause="0" LineNumber="12" PauseBeforeExeucution="false" CommandEnabled="true" v_WindowName="Notepad" />
+    </ScriptAction>
+  </Commands>
+  <Variables />
+</Script>
