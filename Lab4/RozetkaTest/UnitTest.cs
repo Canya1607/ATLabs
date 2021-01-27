@@ -16,7 +16,7 @@ namespace RozetkaTest
             public IWebDriver driver { get; private set; }
             public MyBrowser()
             {
-                driver = new ChromeDriver("D:\\ITSteps\\2020\\Automation Testing\\Lab4Try\\RozetkaTest\\chromedriver");
+                driver = new ChromeDriver("D:\\ITSteps\\2020\\Automation Testing\\Lab4\\RozetkaTest\\chromedriver");
                 driver.Manage().Window.Maximize();
             }
             public void close()
