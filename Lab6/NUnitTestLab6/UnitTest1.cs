@@ -51,11 +51,6 @@ namespace NUnitTestLab6
             fileName.AsTextBox().Text.Should().Be(placeToSave+newFileName);
             saveFile.FindFirstChild("1").AsButton().Invoke();
         }
-        [SetUp]
-        public void Setup()
-        {
-
-        }
 
         [Test]
         public void Test1()
