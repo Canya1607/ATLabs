@@ -12,11 +12,7 @@ namespace Exam
     public class Tests
     {
         MyBrowser browser;
-        [SetUp]
-        public void Setup()
-        {
-        }
-
+  
         class MyBrowser
         {
             public IWebDriver driver { get; private set; }
@@ -53,6 +49,7 @@ namespace Exam
         }
 
         [Test]
+        [Repeat(3)]
         public void Login()
         {
             var faker = new Faker();
