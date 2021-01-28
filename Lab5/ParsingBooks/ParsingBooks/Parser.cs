@@ -15,15 +15,16 @@ namespace ParsingBooks
         {
             this.Page = currentPage;
         }
-        private void Download(string fileUrl,string filePath )
+
+        private void Download(string fUrl,string fPath )
         {
             WebClient webClient = new WebClient();
-            webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(Completed);
-            webClient.DownloadProgressChanged += new DownloadProgressChangedEventHandler(DownloadProgress);
-            webClient.DownloadFileAsync(new Uri(fileUrl), filePath);
+            webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(Finished);
+            webClient.DownloadProgressChanged += new DownloadProgressChangedEventHandler(Progress);
+            webClient.DownloadFileAsync(new Uri(fUrl), fPath);
             while (webClient.IsBusy) { }
         }
-        private void DownloadProgress(object sender, DownloadProgressChangedEventArgs e)
+        private void Progress(object sender, DownloadProgressChangedEventArgs e)
         {
             Console.WriteLine("{0} downloaded {1} of {2} bytes. {3} % complete...",
                 (string)e.UserState,
@@ -31,70 +32,75 @@ namespace ParsingBooks
                 e.TotalBytesToReceive,
                 e.ProgressPercentage);
         }
-        private void DownloadElementFromPage(string elementPath, HtmlDocument html)
+
+        private void Download(string elementPath, HtmlDocument html)
         {
-            Parallel.ForEach(html.DocumentNode.SelectNodes(elementPath), item => Proces(item));
+            Parallel.ForEach(html.DocumentNode.SelectNodes(elementPath), item => InJob(item));
         }
-        private void Completed(object sender, AsyncCompletedEventArgs e)
+
+        private void Finished(object sender, AsyncCompletedEventArgs e)
         {
             if (e.Cancelled)
             {
-                Console.WriteLine("Download has been canceled.");
+                Console.WriteLine("Download down.");
             }
             else
             {
-                Console.WriteLine("Download completed!");
+                Console.WriteLine("Download up!");
             }
         }
-        private void Proces(HtmlNode item)
+        private void InJob(HtmlNode item)
         {
             var bookPagelink = item.Attributes["href"].Value;
             var bookPage = web.Load(bookPagelink);
             try { 
 
-                var downloadUrl = bookPage.DocumentNode.SelectSingleNode("//div/article/footer/div/span[1]/a").Attributes["href"].Value;
-                if (PdfExist(downloadUrl))
+                var url = bookPage.DocumentNode.SelectSingleNode("//div/article/footer/div/span[1]/a").Attributes["href"].Value;
+                if (isPDF(url))
                 {
-                    string filename = getFilename(downloadUrl);
-                    Download(downloadUrl, @"D:\\books\\" + filename);
+                    string filename = getFilename(url);
+                    Download(url, @"D:\\ITSteps\\2020\\Automation Testing\\books\\" + filename);
                 }
                 else
                 {
-                    downloadUrl = bookPage.DocumentNode.SelectSingleNode("//div/article/footer/div/span[2]/a").Attributes["href"].Value;
-                    if (PdfExist(downloadUrl))
+                    url = bookPage.DocumentNode.SelectSingleNode("//div/article/footer/div/span[2]/a").Attributes["href"].Value;
+                    if (isPDF(url))
                     {
-                        string filename = getFilename(downloadUrl);
-                        Download(downloadUrl, @"D:\\books\\" + filename);
+                        string filename = getFilename(url);
+                        Download(url, @"D:\\ITSteps\\2020\\Automation Testing\\books\\" + filename);
                     }
-                    else Console.WriteLine("There is no PDF file here");
+                    else Console.WriteLine("No PDF");
                 }
             }
             catch (System.NullReferenceException e) 
             {
-                Console.WriteLine("There is no PDF file here");
+                Console.WriteLine("No PDF");
             }
 
 
         }
-        private Boolean PdfExist(string downloadUrl)
+
+        private Boolean isPDF(string url)
         {
-            var result = downloadUrl.Substring(downloadUrl.Length - 3)=="pdf" ? true:false ;
+            var result = url.Substring(url.Length - 3)=="pdf" ? true:false ;
             return result;
         }
-        private string getFilename(string hreflink)
+
+        private string getFilename(string href)
         {
-            Uri uri = new Uri(hreflink);
+            Uri uri = new Uri(href);
 
             string filename = System.IO.Path.GetFileName(uri.LocalPath);
 
             return filename;
         }
-        public void parseBook()
+
+        public void parse()
         {
             var html = $"http://www.allitebooks.com/page/"+Page;
             var htmlDoc = web.Load(html);
 
-            DownloadElementFromPage("//header/h2/a", htmlDoc);
+            Download("//header/h2/a", htmlDoc);
         }
     }
 }
